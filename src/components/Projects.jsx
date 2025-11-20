@@ -26,7 +26,7 @@ const Projects = () => {
       title: 'DevReplay AI',
       description: 'An advanced web application that combines AI with a comprehensive knowledge base to help developers solve coding problems and answer technical questions. It stores and organizes code snippets and solutions.',
       tech: ['Python', 'FastAPI', 'React', 'SQLite', 'OpenAI', 'Tailwind CSS'],
-      githubUrl: 'https://devreply.netlify.app/',
+      githubUrl: 'https://github.com/moumouh6/Devreply.git',
       status: 'in-development'
     }
   ];
