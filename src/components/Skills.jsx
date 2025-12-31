@@ -6,15 +6,15 @@ const Skills = () => {
     },
     {
       title: 'Frameworks & Libraries',
-      skills: ['React', 'jQUERY', 'Tailwind CSS', 'Bootstrap', 'FastAPI', 'Node.js', 'Pandas', 'Biopython', 'Matplotlib', 'Streamlit']
+      skills: ['React', 'Tailwind CSS', 'FastAPI', 'Node.js', 'Express.js', 'Pandas', 'Biopython', 'Matplotlib', 'Streamlit']
     },
     {
       title: 'Database & Cloud',
-      skills: ['PostgreSQL', 'SQLite', 'Cloudinary']
+      skills: ['PostgreSQL', 'SQLite', 'mongodb', 'Cloudinary']
     },
     {
       title: 'Tools & DevOps',
-      skills: ['Git', 'GitHub', 'VS Code', 'Figma']
+      skills: ['Git', 'GitHub', 'VS Code', 'Postman', 'Docker']
     },
     {
       title: 'Bioinformatique',

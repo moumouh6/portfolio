@@ -3,7 +3,7 @@ const Projects = () => {
     {
       title: 'E-learning Platform',
       description: 'A full-featured platform with courses and conferences for GIG Algeria company — designed for workers to learn and teachers to create and manage courses.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'Python', 'FastAPI', 'PostgreSQL'],
+      tech: ['JavaScript', 'Python', 'FastAPI', 'PostgreSQL'],
       githubUrl: 'https://github.com/moumouh6/TAKWINI.git',
       status: 'completed'
     },
@@ -21,13 +21,19 @@ const Projects = () => {
       githubUrl: 'https://github.com/moumouh6/sequence-analyzer.git',
       status: 'completed'
     },
-
     {
       title: 'DevReplay AI',
       description: 'An advanced web application that combines AI with a comprehensive knowledge base to help developers solve coding problems and answer technical questions. It stores and organizes code snippets and solutions.',
-      tech: ['Python', 'FastAPI', 'React', 'SQLite', 'OpenAI', 'Tailwind CSS'],
+      tech: ['Python', 'FastAPI', 'React', 'SQLite', 'Tailwind CSS'],
       githubUrl: 'https://github.com/moumouh6/Devreply.git',
       status: 'in-development'
+    },
+    {
+      title: 'WebRTC Real-Time Communication App',
+      description: 'A real-time peer-to-peer communication platform that allows users to create or join rooms for video/audio calls, chat, screen sharing, and interactive games using WebRTC and Socket.IO.',
+      tech: ['WebRTC', 'JavaScript', 'Node.js', 'Socket.IO'],
+      githubUrl: 'https://github.com/moumouh6/WebRTC-video-chat-app.git',
+      status: 'completed'
     }
   ];
 

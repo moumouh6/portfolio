@@ -1,6 +1,11 @@
 function Certificates() {
   const certificates = [
     {
+      title: "The Complete Full-Stack Web Development Bootcamp",
+      company: "Udemy",
+      date: "2025",
+    },
+    {
       title: "Learn Bioinformatics - Beginner to Master Through Projects",
       company: "Udemy",
       date: "2025",
