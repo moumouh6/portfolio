@@ -1,13 +1,6 @@
 const Projects = () => {
   const projects = [
     {
-      title: 'Productivity Dashboard',
-      description: 'A simple and modern dashboard to track personal productivity, assign tasks, and monitor progress in real time.',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      githubUrl: 'https://moumouh6.github.io/Dashboard/',
-      status: 'completed'
-    },
-    {
       title: 'DNA & Protein Sequence Analyzer',
       description: "Application web d’analyse de séquences ADN et protéines : GC/AT content, reverse complement, composition AA, poids moléculaire",
       tech: ['Python', 'Streamlit', 'Biopython'],
@@ -15,24 +8,11 @@ const Projects = () => {
       status: 'completed'
     },
     {
-      title: 'DevReplay AI',
-      description: 'An advanced web application that combines AI with a comprehensive knowledge base to help developers solve coding problems and answer technical questions. It stores and organizes code snippets and solutions.',
-      tech: ['Python', 'FastAPI', 'React', 'SQLite', 'Tailwind CSS'],
-      githubUrl: 'https://devreply.netlify.app/',
-      status: 'in-development'
-    },
-    {
       title: 'WebRTC Real-Time Communication App',
       description: 'A real-time peer-to-peer communication platform that allows users to create or join rooms for video/audio calls, chat, screen sharing, and interactive games using WebRTC and Socket.IO.',
       tech: ['WebRTC', 'JavaScript', 'Node.js', 'Socket.IO'],
       githubUrl: 'https://web-rtc-mg24.onrender.com/',
       status: 'completed'
-    },
-    {
-      title: 'News Pulse',
-      description: 'A sleek and modern news application that aggregates the latest headlines from various sources.',
-      tech: ['Next.js', 'Tailwind CSS', 'JavaScript'],
-      githubUrl: 'https://v0-pulse-news-frontend-app.vercel.app/'
     },
     {
       title: 'E-learning Platform',
