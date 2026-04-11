@@ -18,14 +18,14 @@ const Projects = () => {
       title: 'DNA & Protein Sequence Analyzer',
       description: "Application web d'analyse de séquences ADN et protéines : GC/AT content, reverse complement, composition AA, poids moléculaire",
       tech: ['Python', 'Streamlit', 'Biopython'],
-      githubUrl: 'https://sequence-analyzer0.streamlit.app/',
+      githubUrl: 'https://github.com/moumouh6/sequence-analyzer.git',
       status: 'completed'
     },
     {
       title: 'WebRTC Real-Time Communication App',
       description: 'A real-time peer-to-peer communication platform that allows users to create or join rooms for video/audio calls, chat, screen sharing, and interactive games using WebRTC and Socket.IO.',
       tech: ['WebRTC', 'JavaScript', 'Node.js', 'Socket.IO'],
-      githubUrl: 'https://web-rtc-mg24.onrender.com/',
+      githubUrl: 'https://github.com/moumouh6/WebRTC-video-chat-app.git',
       status: 'completed'
     },
     {
@@ -83,7 +83,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                       className="flex-1 py-2 px-4 border border-gray-700 rounded-lg text-center font-medium hover:border-cyan-500 hover:bg-cyan-500/10 transition-all text-sm text-white"
                     >
-                      View site
+                      View code
                     </a>
                   )}
                   {!project.liveUrl && !project.githubUrl && (
