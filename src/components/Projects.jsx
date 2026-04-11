@@ -1,8 +1,22 @@
 const Projects = () => {
   const projects = [
     {
+      title: 'SARS-CoV-2 Variant Calling Pipeline',
+      description: "Pipeline NGS complet identifiant 35 variants (32 SNPs, 3 délétions) dans un isolat Delta B.1.617.2 vs le génome de référence Wuhan-Hu-1 — D614G, P681R, délétion 6 pb NTD. Pipeline reproductible via Conda.",
+      tech: ['Python', 'Snippy', 'BWA-MEM', 'Freebayes', 'Pandas', 'Matplotlib'],
+      githubUrl: 'https://github.com/moumouh6/sars-variant-pipeline',
+      status: 'completed'
+    },
+    {
+      title: 'Drug-Target Interaction Analysis (Molecular Docking)',
+      description: "Reproduction computationnelle de la liaison du Nirmatrelvir (Paxlovid) à la protéase Mpro du SARS-CoV-2 — affinité -6.813 kcal/mol, RMSD 1.295 Å vs pose cristalline (docking validé < 2.0 Å).",
+      tech: ['Python', 'AutoDock Vina', 'RDKit', 'OpenBabel', 'PyMOL', 'NumPy'],
+      githubUrl: 'https://github.com/moumouh6/drug-target-analysis',
+      status: 'completed'
+    },
+    {
       title: 'DNA & Protein Sequence Analyzer',
-      description: "Application web d’analyse de séquences ADN et protéines : GC/AT content, reverse complement, composition AA, poids moléculaire",
+      description: "Application web d'analyse de séquences ADN et protéines : GC/AT content, reverse complement, composition AA, poids moléculaire",
       tech: ['Python', 'Streamlit', 'Biopython'],
       githubUrl: 'https://sequence-analyzer0.streamlit.app/',
       status: 'completed'
@@ -22,7 +36,6 @@ const Projects = () => {
       status: 'completed'
     }
   ];
-
   return (
     <section id="projects" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20">
       <div className="max-w-6xl mx-auto w-full">
